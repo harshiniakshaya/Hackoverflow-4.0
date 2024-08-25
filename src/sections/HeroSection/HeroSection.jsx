@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return(
-    <div className="min-h-screen flex justify-center items-center">
+    <div id="hero-section" className="min-h-screen flex justify-center items-center">
       <h1>Hero Section</h1>
     </div>
   )
