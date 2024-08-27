@@ -4,9 +4,10 @@ import Home from './pages/Home/Home';
 import LoadingPage from './pages/LoadingPage/LoadingPage';
 import { useEffect, useState } from 'react';
 import AnimatedCursor from 'react-animated-cursor';
+import BgCanvas from './components/BgCanvas/BgCanvas';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   const routes = createBrowserRouter([
     {
